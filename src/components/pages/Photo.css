@@ -1,0 +1,64 @@
+
+
+.photoSectionContainer{
+    height: 100px;
+    /* background-color: aqua; */
+}
+
+.photoSectionContainer div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.photoContainer{
+    width: 128px;
+    height: 128px;
+    border: 4px solid white;
+    border-radius: 100px;
+    position: relative;
+    top: -60px;
+    left: 30px;
+}
+
+.photoContainer img {
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+
+}
+
+.contactButton{
+    height: 30px;
+    width: 80px;
+    border-radius: 80px;
+    background-color: var(--snGreen);
+    color: white;
+    border: 1px solid #0f8343;
+    margin: 10px;
+    font-size: 0.8em;
+}
+
+.contactButton:active{
+    background-color: #0f8343;
+    border: 2px solid var(--snGreen);
+    transition-duration: 0.1s;
+}
+
+
+@media screen and (min-width: 768px){
+    .contactButton{
+        height: 40px;
+        width: 110px;
+        background-color:var(--snGreen);
+    }
+    
+    .contactButton:hover{
+        background-color: #0f8343; 
+        border: 2px solid var(--snGreen);
+        transition-duration: 0.4s;
+    }
+
+    .contactButton:active{
+        background-color: #094624;
+    }
+}

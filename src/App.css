@@ -1,4 +1,29 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
 
+.pageContainer{
+  width: 100%;
+  max-width: 720px;
+  /* backgro  und-color: red; */
+  margin: 0 auto;
+}
+
+/* .snGreen{
+  color: var(--snGreen)
+}
+
+.snBlue{
+  color: var(--snBlue)
+} */
+
+:root{
+  --snGreen: #62d84e;
+  --snBlue: #032d42;
+  --customFonts: 'Roboto','Franklin Gothic Medium', Arial, sans-serif
+}
